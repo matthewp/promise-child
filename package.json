@@ -1,0 +1,28 @@
+{
+  "name": "promise-child",
+  "version": "1.0.0",
+  "description": "Create a Promise from a ChildProcess",
+  "main": "child.js",
+  "scripts": {
+    "test": "node test/test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matthewp/promise-child.git"
+  },
+  "keywords": [
+    "Promise",
+    "ChildProcess",
+    "child"
+  ],
+  "author": "Matthew Phillips",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/matthewp/promise-child/issues"
+  },
+  "homepage": "https://github.com/matthewp/promise-child",
+  "devDependencies": {
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.1"
+  }
+}
