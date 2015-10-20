@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/matthewp/promise-child.svg?branch=master)](https://travis-ci.org/matthewp/promise-child)
+[![npm version](https://badge.fury.io/js/promise-child.svg)](http://badge.fury.io/js/promise-child)
+
 
 # promise-child
 
