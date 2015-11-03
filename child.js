@@ -13,7 +13,7 @@ function promiseChild(child, opts){
     appendData(child.stderr, result, "stderr");
   }
 
-  return new Promise(function(resolve){
+  return new Promise(function(resolve, reject){
     child.on("exit", function(code){
       result.code = code;
       if(code) {
